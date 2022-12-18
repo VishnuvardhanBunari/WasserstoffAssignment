@@ -1,0 +1,16 @@
+.topic-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topic-list {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+}

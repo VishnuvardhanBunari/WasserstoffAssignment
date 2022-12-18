@@ -1,0 +1,124 @@
+.topic-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.dashboard-page {
+  display: flex;
+  color: #0a122c;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button {
+  color: #fff;
+  padding: 10px 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 'Roboto';
+  cursor: pointer;
+}
+
+.understand {
+  background-color: #5cb85c;
+}
+
+.some-what-understand {
+  background-color: #f0ad4e;
+}
+
+.not-clear {
+  background-color: #5bc0de;
+}
+
+.what-rubbish {
+  background-color: #d9534f;
+}
+
+.trigger-button {
+  background-color: #0a122c;
+  color: #ffffff;
+  padding: 8px 20px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content {
+  border-radius: 10px;
+  width: 600px;
+  height: 550px;
+}
+
+.add-topic-container {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-topic-heading {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  color: #475569;
+  margin-top: 10px;
+}
+
+.input-name {
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  font-size: 14px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.input-content {
+  font-size: 14px;
+  height: 320px;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.input-containers {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.add-topic {
+  background-color: #0a122c;
+  color: #ffffff;
+  padding: 8px 20px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
